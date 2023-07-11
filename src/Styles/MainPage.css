@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+}
+.main .leftside {
+    width: 20%;
+    height: 100%;
+}
+.main .rightside {
+   width: 80%;
+   height: 100%;
+   padding: 10px;
+   margin-left: 10px;
+}

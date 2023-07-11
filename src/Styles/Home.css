@@ -1,0 +1,88 @@
+.home {
+    position: relative;
+    margin-left: 50px;
+    height: 100%;
+    width: 1000px;
+}
+
+.carditem .card {
+    width: 18rem;
+    border: none;
+    margin-top: 10px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.home .p .pa {
+    margin-top: 40px;
+}
+
+.home .para {
+    margin-top: 10px;
+}
+
+.home .searchbar {
+    height: 100px;
+    display: flex;
+    width: 100%
+}
+
+.home .searchbar .fa-solid {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn-upgrade {
+    border: 0;
+    margin-left: 340px;
+    margin-top: 0;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #ffff00;
+}
+
+.btn-upgrade:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.btn-invite {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.btn-invite:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.search {
+    padding-left: 30px;
+    /* Adjust this value to align the text properly */
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px grey;
+    width: 400px;
+    margin-left: 10px;
+    height: 40px;
+} 
+
+.search:focus {
+  outline: none;
+  border: none;
+}
+
+.home .btns .btn {
+    background-color: rgb(255, 241, 43);
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: 0;
+    margin: 5px;
+    color: black;
+}

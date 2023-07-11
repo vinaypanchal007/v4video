@@ -1,0 +1,543 @@
+.ednav {
+    width: 1365px;
+    height: 100%;
+    padding: 0;
+    display: flex;
+}
+
+.editor .ptr .timeline-container {
+    width: 1265px;
+    margin-top: 58px;
+    /* Adjust the width as needed */
+    height: 10px;
+    /* Adjust the height as needed */
+    background-color: #f2f2f2;
+    position: relative;
+    margin-left: 100px;
+}
+
+.timeline-bar {
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.timeline {
+    height: 20px;
+    width: 500px;
+}
+
+.played-bar {
+    height: 20px;
+    width: 500px;
+}
+
+.slider-bar {
+    width: 100%;
+    height: 100%;
+    -webkit-appearance: none;
+    background-color: transparent;
+}
+
+.slider-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2px;
+    /* Adjust the width as needed */
+    height: 124px;
+    /* Adjust the height as needed */
+    background-color: #00ccff;
+    cursor: pointer;
+}
+
+.editor .lower .scale {
+    margin-left: 70px;
+    height: 30px;
+}
+
+.editor .lower .scale .marking .scaling {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    height: 14px;
+    background-color: white;
+}
+
+.marking {
+    width: 1px;
+    height: 10px;
+    background-color: black;
+}
+
+.marking:not(:first-child) {
+    margin-left: 30px;
+}
+
+.editor .lower .scale .number {
+    display: flex;
+}
+
+.editor .lower .scale .number {
+    height: 15px;
+    width: 1265px;
+    display: flex;
+    font-size: 13px;
+}
+
+.editor .lower .scale .marking {
+    height: 14px;
+    width: 1265px;
+}
+
+.editor .lower .scale .number {
+    margin-left: 28px;
+}
+
+.two {
+    margin-left: 290px;
+}
+
+.three {
+    margin-left: 285px;
+}
+
+.four {
+    margin-left: 350px;
+}
+
+.five {
+    margin-left: 283px;
+}
+
+.editor .lower .track2 {
+    width: 1365px;
+    display: flex;
+}
+
+.editor .lower .track2 .b1 {
+    width: 100px;
+    height: 44px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .track2 .b1 .name {
+    margin-left: 20px;
+}
+
+.editor .lower .track2 .b2 {
+    width: 1265px;
+    height: 44px;
+    background-color: grey;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .scale .colorsc {
+    height: 1px;
+    width: 1295px;
+    background-color: black;
+}
+
+.editor .upper .nav-info .three .addfile {
+    border: 0;
+    border-radius: 7px;
+    margin-right: 5px;
+    background-color: rgb(180, 180, 180);
+}
+
+.editor .upper .nav-info .three .delfile {
+    border: 0;
+    border-radius: 7px;
+    margin-right: 5px;
+    background-color: rgb(180, 180, 180);
+}
+
+.editor .lower .track1 {
+    display: flex;
+    height: 44px;
+    width: 1300px;
+}
+
+.editor .lower .track1 .block2 .timeline-bar {
+    background-color: grey;
+    height: 44px;
+    width: 1266px;
+}
+
+.editor .lower .track1 .block2 .timeline-bar .played-bar {
+    background-color: rgb(255, 0, 0);
+    height: 44px;
+    width: 1266px;
+}
+
+.editor .lower .track1 .block1 .t1 {
+    width: 78px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+.editor .upper .nav-info .one .asset {
+    margin: 10px;
+    margin-left: 170px;
+}
+
+.editor .upper .nav-info .one .upload {
+    margin-left: 420px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(180, 180, 180);
+}
+
+.editor .upper .nav-info .three {
+    margin-left: 400px;
+    border-radius: 7px;
+    border: 0;
+    display: flex;
+    background-color: transparent;
+}
+
+.editor .upper .nav-info .file {
+    display: flex;
+    height: 320px;
+}
+
+.editor .upper .nav-info .file .c1 {
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+}
+
+.editor .upper .nav-info .file .c1 .card {
+    border: 0;
+    outline: 0;
+}
+
+.editor .upper .nav-info .file .c1 .card .a {
+    height: 100px;
+    width: 90px;
+}
+
+.editor .upper .nav-info .file .c2 {
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+}
+
+.editor .upper .nav-info .file .c2 .card {
+    border: 0;
+    outline: 0;
+}
+
+.editor .upper .nav-info .file .c2 .card .c {
+    height: 100px;
+    width: 180px;
+}
+
+.editor .lower .component {
+    display: flex;
+}
+
+.editor .lower .component .split {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .split:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .add:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .mic:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .delete:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .upper .videoed {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .add {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .mic {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .delete {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .vidbtn {
+    margin-left: 250px;
+    margin-top: 3px;
+}
+
+.editor .lower .component .vidbtn .back {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .vidbtn .play {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 30px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .vidbtn .pause {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 30px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .vidbtn .for {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 30px;
+    background-color: rgb(204, 204, 204);
+}
+
+.editor .lower .component .vidbtn .back:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .vidbtn .play:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .vidbtn .pause:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .vidbtn .for:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .lower .component .btn {
+    display: flex;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.editor .upper .videoed .btns .icon {
+    margin-top: 0px;
+    margin-left: 380px;
+    border-radius: 0;
+    display: flex;
+}
+
+.editor .upper .videoed {
+    height: 455px;
+}
+
+.btn .fa-solid {
+    border-radius: 0;
+}
+
+.editor .upper .videoed .btns {
+    display: flex;
+    height: 60px;
+}
+
+.filename {
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+.filename:focus {
+    outline: 0;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.editor .upper .videoed .edit .vid {
+    height: 350px;
+    width: 700px;
+    margin: 35px;
+    border: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.upper .nav-info {
+    height: 455px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.nav {
+    width: 5%;
+    display: flex;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.settings {
+    height: 75px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+.help {
+    margin-top: 480px;
+    margin-left: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    color: gray;
+    border-radius: 100px;
+}
+
+.nav .settings .btn {
+    height: 60px;
+    width: 60px;
+    margin-left: 3px;
+    margin-top: 5px;
+    border: 0;
+}
+
+.set {
+    margin-left: 0;
+    text-align: center;
+}
+
+.editor .upper {
+    height: 70%;
+    display: flex;
+}
+
+.upper .nav-info {
+    width: 465px;
+}
+
+.upper .edit {
+    width: 900px;
+    display: flex;
+}
+
+.editor .lower {
+    width: 100%;
+}
+
+.lower .component {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.lower .track1 {
+    height: 70px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.lower .track2 {
+    height: 72px;
+}
+
+.lower .options {
+    margin-left: 260px;
+}
+
+.lower .options .voldown {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+.lower .options .volup {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+.lower .options .zoomout {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+.lower .options .zoomin {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+.lower .options .voldown:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.lower .options .volup:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.lower .options .zoomout:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.lower .options .zoomin:focus {
+    box-shadow: 1px 1px 5px grey;
+}
